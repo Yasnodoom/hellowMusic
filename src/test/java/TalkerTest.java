@@ -14,7 +14,7 @@ public class TalkerTest {
         System.out.println("i love music");
     }
 
-//    @Test
+    @Test
     public void findSomeTextInYndex() {
         Selenide.open("https://ya.ru");
         $x("//input[@id='text']").val("docker");
