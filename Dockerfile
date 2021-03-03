@@ -9,7 +9,7 @@ RUN     echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc
 RUN     apt-get update
 
 # Install vnc, xvfb in order to create a 'fake' display and firefox
-RUN     apt-get install -y x11vnc xvfb firefox
+RUN     apt-get install -y x11vnc xvfb
 RUN     mkdir /.vnc
 # Setup a password
 RUN     x11vnc -storepasswd 1234 ~/.vnc/passwd
