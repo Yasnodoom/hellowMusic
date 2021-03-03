@@ -2,4 +2,4 @@
 
 FROM    maven:3.3-jdk-8
 
-RUN apt-get install firefox
+RUN apt-get install -y firefox
