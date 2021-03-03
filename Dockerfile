@@ -2,4 +2,4 @@
 
 FROM    maven:3.3-jdk-8
 
-RUN apt-get install chrome
+RUN apt-get install firefox
