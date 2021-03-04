@@ -14,7 +14,7 @@ public class TalkerTest {
     @BeforeClass
     public static void setup() {
         Configuration.browser = "firefox";
-        Configuration.headless = true;
+//        Configuration.headless = true;
     }
 
     @Test
